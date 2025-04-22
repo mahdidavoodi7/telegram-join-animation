@@ -30,25 +30,31 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { BlurView } from 'expo-blur';
 import Content from './Content';
 
+// Constants for the animation and layout
 const MAX_RADIUS = 45;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const MARGIN_TOP = 110;
 
 function MeatBall() {
+  // Get safe area insets and screen dimensions
   const insets = useSafeAreaInsets();
   const { width: screenWidth } = useWindowDimensions();
 
+  // Initialize scroll-related values
   const scrollRef = useAnimatedRef<Animated.ScrollView>();
   const scrollY = useSharedValue(MARGIN_TOP);
   const canvasMarginTop = insets.top === 20 ? 0 : 47;
 
+  // Create animated version of BlurView component
   const AnimatedBlurView = Animated.createAnimatedComponent(BlurView);
 
-  // === Scroll handler ===
+  // === Scroll handler for managing scroll interactions ===
   const scrollHandler = useAnimatedScrollHandler({
+    // Update scrollY value on scroll
     onScroll: (event) => {
       scrollY.value = MARGIN_TOP - event.contentOffset.y;
     },
+    // Snap to positions when drag ends
     onEndDrag: (event) => {
       const y = event.contentOffset.y;
       if (y > 0 && y < MARGIN_TOP - MAX_RADIUS) {
