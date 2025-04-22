@@ -3,11 +3,7 @@
 A sleek and modern join animation inspired by Telegram's in-call UI — built using **Expo**, **react-native-skia**, and **Reanimated**.  
 When a user joins, their profile photo pops out smoothly with a dynamic island-like effect.
 
-<p align="center">
-  <img src="preview.gif" alt="Preview" width="300" />
-</p>
-
-
+https://github.com/user-attachments/assets/c3ed3b8f-9987-486d-b36b-3dc14ab67d02
 
 ## 🚀 Tech Stack
 
