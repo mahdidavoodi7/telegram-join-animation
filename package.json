@@ -1,0 +1,31 @@
+{
+  "name": "join-animation",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "author": "Mehdi Davoodi",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@shopify/react-native-skia": "1.2.3",
+    "expo": "~51.0.38",
+    "expo-blur": "~13.0.3",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-skia-gesture": "^0.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "~18.2.79",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
