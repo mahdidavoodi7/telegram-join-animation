@@ -1,5 +1,8 @@
 # Telegram-Style Join Animation (React Native)
 
+A free drop from **Motionary**. The whole flock lives at **https://motionary.dev**.
+
+
 A sleek and modern join animation inspired by Telegram's in-call UI — built using **Expo**, **react-native-skia**, and **Reanimated**.  
 When a user joins, their profile photo pops out smoothly with a dynamic island-like effect.
 
@@ -39,3 +42,24 @@ git clone https://github.com/your-repo/telegram-join-animation
 cd telegram-join-animation
 yarn install
 expo start
+```
+
+
+## Want the rest?
+
+The paid catalog is at
+[motionary.dev](https://motionary.dev?utm_source=github&utm_medium=readme&utm_campaign=free_drop):
+the ChatGPT attachments menu, Apple Music lyrics, Flip Calendar, and every drop that
+comes next. Single drops around $10, or the Lifetime All-Access pass: one payment,
+every drop, every future drop.
+
+## Want a drop that doesn't exist yet?
+
+Open an issue and describe the interaction. The most-requested ones get built.
+
+## License
+
+MIT. Use it in anything, ship it, sell your app, no strings. If it saves you a day, a
+star helps other devs find this. 🐦‍⬛
+
+Built by [@mehdi_made](https://x.com/mehdi_made)
