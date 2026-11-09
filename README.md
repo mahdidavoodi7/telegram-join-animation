@@ -1,6 +1,6 @@
 # Telegram-Style Join Animation (React Native)
 
-A free drop from **Motionary**. The whole flock lives at **https://motionary.dev**.
+A free drop from **Motionary**. The whole flock lives at **https://motionary.dev**. Related: [Telegram Quick Share](https://motionary.dev/animations/telegram-quick-share).
 
 
 A sleek and modern join animation inspired by Telegram's in-call UI — built using **Expo**, **react-native-skia**, and **Reanimated**.  
